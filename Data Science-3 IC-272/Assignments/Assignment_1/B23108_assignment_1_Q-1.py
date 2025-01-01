@@ -1,7 +1,7 @@
 import pandas as pd
 import math
 
-df = pd.read_csv(r"D:\\College\\Sem 3\\Machine Learning\\2024\\Assignments\\Assignment_1\\landslide_data_original.csv")
+df = pd.read_csv("landslide_data_original.csv")
 # print(df)
 
 print("The Statistical Measures of Temperature attributes are : \n")
