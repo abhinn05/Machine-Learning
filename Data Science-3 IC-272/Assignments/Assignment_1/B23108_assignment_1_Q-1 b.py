@@ -18,7 +18,7 @@ def pearson_correlation(x, y):
     std_y = standard_deviation(y, y_mean)
     return cov / (std_x * std_y)
 
-df = pd.read_csv("D:\\College\\Sem 3\\Machine Learning\\2024\\Assignments\\Assignment_1\\landslide_data_original.csv")
+df = pd.read_csv("landslide_data_original.csv")
 
 x = df['lightavg'].dropna()  
 y = df['temperature'].dropna()  
