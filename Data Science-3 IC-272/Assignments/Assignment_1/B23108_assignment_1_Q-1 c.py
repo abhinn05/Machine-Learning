@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv("D:\\College\\Sem 3\\Machine Learning\\2024\\Assignments\\Assignment_1\\landslide_data_original.csv")
+df = pd.read_csv("landslide_data_original.csv")
 
 filtered_data = df[df['stationid'] == 't12']['humidity'].dropna()
 
