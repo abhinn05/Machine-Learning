@@ -3,7 +3,7 @@ import math
 import matplotlib.pyplot as plt
 import numpy as np
 
-df = pd.read_csv("D:\\College\\Sem 3\\Machine Learning\\2024\\Assignments\\Assignment_1\\landslide_data_miss.csv")
+df = pd.read_csv("landslide_data_miss.csv")
 df = df.dropna(subset=['stationid'])
 threshold = len(df.columns) / 3  
 df = df.dropna(thresh=len(df.columns) - threshold)
