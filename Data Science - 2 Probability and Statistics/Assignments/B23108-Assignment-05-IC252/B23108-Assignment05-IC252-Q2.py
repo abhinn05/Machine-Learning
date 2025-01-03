@@ -4,7 +4,7 @@ import numpy as np
 
 #A
 prob_dict = {'Grocery/Pharmacy': 0.2, 'Parks': 0.02, 'Residential': 0.5, 'Retail': 0.2, 'Workplace': 0.03, 'Transport': 0.05}
-df = pd.read_csv('C:/Users/Abhinn/Desktop/B23108-Assignment-05-IC252/2021_IN_Region_Mobility_Report.csv')
+df = pd.read_csv('2021_IN_Region_Mobility_Report.csv')
 mumbai_suburban = df[df['sub_region_2'] == 'Mumbai Suburban'].iloc[:, -7:]
 mumbai_suburban.columns = ['Date', 'Retail', 'Grocery/Pharma', 'Parks', 'Transport', 'Workplace', 'Residential']
 mumbai_suburban['Date'] = pd.to_datetime(mumbai_suburban['Date'])
