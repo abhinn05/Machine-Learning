@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import re
 
-with open("C:/Users/Abhinn/Desktop/B23108-Assignment-05-IC252/fileA-TimeMachine.txt", "r",encoding='utf-8') as file:
+with open("fileA-TimeMachine.txt", "r",encoding='utf-8') as file:
     data = file.read()
 
 #A
